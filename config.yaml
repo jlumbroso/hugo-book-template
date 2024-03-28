@@ -1,4 +1,4 @@
-# hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
+# hugo server --minify --baseURL=http://0.0.0.0:1313/hugo-book-template/
 
 baseURL: https://jlumbroso.github.io/hugo-book-template/
 title: Hugo Book
@@ -48,6 +48,8 @@ menu:
       weight: 20
 
 params:
+  contentDir: "content.en"
+
   # (Optional, default false) Enables encryption of the content with a password.
   HugoEncrypt:
     Password: "yourpassword"
