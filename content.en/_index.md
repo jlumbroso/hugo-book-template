@@ -29,7 +29,7 @@ This content is visible to anyone.
 
 {{% hugo-encrypt %}}
 
-This content will be encrypted!
+This content will be encrypted by the global password!
 
 {{% /hugo-encrypt %}}
 
@@ -37,7 +37,7 @@ This one is using a post-specific password `postspecificpassword`:
 
 {{% hugo-encrypt "postspecificpassword" %}}
 
-This content will be encrypted!
+This content will be encrypted by a specific password!
 
 {{% /hugo-encrypt %}}
 
