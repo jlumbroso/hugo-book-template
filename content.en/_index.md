@@ -21,6 +21,25 @@ miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
 nunc! Fragosis suae dextra geruntur functus vulgata.
 {{< /columns >}}
 
+## Hugo Encrypt Example
+
+The password is `yourpassword`:
+
+This content is visible to anyone.
+
+{{% hugo-encrypt %}}
+
+This content will be encrypted!
+
+{{% /hugo-encrypt %}}
+
+This one is using a post-specific password `postspecificpassword`:
+
+{{% hugo-encrypt "postspecificpassword" %}}
+
+This content will be encrypted!
+
+{{% /hugo-encrypt %}}
 
 ## Tempora nisi nunc
 
