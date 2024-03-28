@@ -8,6 +8,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      pull-requests: write
+      repository-projects: write
     steps:
       - name: 🔄 Check Out Source Repository
         uses: actions/checkout@v4.1.1
